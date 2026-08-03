@@ -2,25 +2,25 @@ class Drydock < Formula
   desc "What's uncommitted, unpushed, and unreleased across every repo you own"
   homepage "https://github.com/yetidevworks/drydock"
   license "MIT"
-  version "0.1.3"
+  version "0.1.4"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.3/drydock-darwin-aarch64.tar.gz"
-      sha256 "224d88f047aacdb16b2179b817fa7c48506a8ceda2f62d103f731f1aa6d3b68d"
+      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.4/drydock-darwin-aarch64.tar.gz"
+      sha256 "ba7314256479140ad47477238c2145f871cf6124341fdd501b8e85e52b94cfa1"
     else
-      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.3/drydock-darwin-x86_64.tar.gz"
-      sha256 "b3062a560f753576e8bcba07fae913484e259a29c3552f0fb55dbe1f4787fee4"
+      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.4/drydock-darwin-x86_64.tar.gz"
+      sha256 "0ec2b48f34ce658bd0dfcf11d323d09d66a5f352d0eeb53f8aa4e4dbbdfa77ee"
     end
   end
 
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.3/drydock-linux-aarch64.tar.gz"
-      sha256 "6cebcf5fda1e0a0434456de63a94fcefd62de7277d103e5c11617ffd090b42fc"
+      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.4/drydock-linux-aarch64.tar.gz"
+      sha256 "7ee45e9233ec92f48c0f0035b2b802eb719ad9e853a4f8864f7582fdfbadca17"
     else
-      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.3/drydock-linux-x86_64.tar.gz"
-      sha256 "71391fedc7edc0236943286261b552aaa2159997f89ee81cf509042e070f633b"
+      url "https://github.com/yetidevworks/drydock/releases/download/v0.1.4/drydock-linux-x86_64.tar.gz"
+      sha256 "2d9d4be4d7ee5c491dbc5f2f777b498df5fc023bfe45d4d829bd8e6f6f0d9572"
     end
   end
 
